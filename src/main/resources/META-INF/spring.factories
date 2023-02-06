@@ -1,0 +1,9 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.haemeta.pool.datasource.config.AutoGetConfig,\
+  com.haemeta.pool.datasource.config.datasource.MasterDSConfig,\
+  com.haemeta.pool.datasource.config.datasource.SecondaryDSConfig,\
+  com.haemeta.pool.datasource.config.datasource.DynamicDSConfig,\
+  com.haemeta.pool.datasource.aop.TransactionAop,\
+  com.haemeta.pool.datasource.utils.SpringContextUtil,\
+  com.haemeta.pool.datasource.config.pagehelper.PageHelperConfig,\
+  com.haemeta.pool.datasource.config.JdbcConfig
